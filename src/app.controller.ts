@@ -6,4 +6,9 @@ export class AppController {
   getHello(): string {
     return 'Hello World!';
   }
+
+  @Get('nueva-cadena')
+  getNuevaCadena(): string {
+    return 'Esta es una nueva cadena de texto';
+  }
 }
